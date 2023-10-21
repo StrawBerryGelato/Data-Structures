@@ -1,11 +1,11 @@
 package crawler;
-
+import java.util.LinkedList;
 public class Room {
 	int data;
 	Room next;
+	Room previous;
 
-	public Room(int data) { 
-        this.data = data;
+	public Room() { 
 	}
 	
 }

@@ -24,12 +24,9 @@ public class Entities {
 		this.money = money;
 	}
 	
-	Entities hero = new Entities("Logan",100,100,10,10,10,0);
-	Entities bandit = new Entities("Bandit",100,100,10,10,10,0);
-	Entities wolf = new Entities("Wolf",100,100,10,10,10,0);
-	Entities spider = new Entities("Spider",100,100,10,10,10,0);
-
-	
+	public Entities getHero(Entities hero) {
+		return hero;
+	}
 	public String getName() {
 		return name;
 	}
