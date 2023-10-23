@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class GameEngine{
 	public static void main(String[] args) {
 	//Intro Sequence
-	Entities player = new Entities("Issac", 100, 100, 10, 10, 10, 0);
+	Entities player = new Entities("Issac", 100, 100, 10, 10, 10, 100);
 	System.out.println("The door creaks loudly as you enter the tavern.");
 	
 	System.out.println("Ghostly patrons are silent as they all stare as the echoes of your deafening boots breaks the silence.");
@@ -33,7 +33,7 @@ public class GameEngine{
 	PlayerChoices choice = new PlayerChoices();
 	choice.tavernMenu();
 	choice.tavernChoice(player);
-	
+
 	
 
 	//Tavern Routes
